@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e4344d-7c94-4cd5-bb73-6c9df0476a48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/PersonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.testPerson">
+  <component name="RunManager" selected="JUnit.TeacherTest.testTeacher">
     <configuration name="PersonTest.testPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
@@ -112,9 +118,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TeacherTest.testTeacher" />
         <item itemvalue="JUnit.PersonTest.testPerson" />
         <item itemvalue="JUnit.StudentTest.testPerson" />
-        <item itemvalue="JUnit.TeacherTest.testTeacher" />
       </list>
     </recent_temporary>
   </component>
