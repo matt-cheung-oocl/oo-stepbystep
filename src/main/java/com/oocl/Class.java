@@ -1,6 +1,5 @@
 package com.oocl;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,6 +18,8 @@ public class Class {
 			teacher.teachingClass.add(this.classNum);
 			this.teacher = teacher;
 		}
+		else
+			System.out.println("Teaching Class > 5, can't teach anymore class.");
 	}
 
 	public int getClassNum() {
@@ -41,6 +42,8 @@ public class Class {
 				stu.welcomeLeader(this, student);
 			}
 		}
+		else
+			System.out.println(student.getName() + " is not in Class " + this.classNum);
 	}
 
 	public List<Student> getListOfStudent() {
