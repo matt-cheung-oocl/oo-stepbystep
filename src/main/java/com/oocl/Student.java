@@ -1,7 +1,5 @@
 package com.oocl;
 
-import java.util.ArrayList;
-
 public class Student extends Person {
 	public int classNum;
 	public String welcomeClassmateMessage;
