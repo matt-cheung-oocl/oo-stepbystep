@@ -25,7 +25,7 @@ public class Student extends Person {
 
 	@Override
 	public String introduce() {
-		return ("My name is "+ name +". I am "+ age +" years old. I am a student of class "+ classNum +". Coding for the glory of OOCL.");
+		return ("My name is "+ name +". I am "+ age +" years old. I am a student of class "+ classNum +". Coding for the glory of OOCL. ");
 	}
 
 	public void welcomeClassmate(Class klass, Student student) {

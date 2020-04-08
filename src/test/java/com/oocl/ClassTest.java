@@ -24,4 +24,30 @@ public class ClassTest {
 
 		assertEquals(welcome, teacher.getWelcomeClassmateMessage());
 	}
+
+	@Test
+	public void test_student_welcome_classmate() {
+		String welcome = "My name is Tom. I am 18 years old. I am a student of class 2. Coding for the glory of OOCL. Welcome Jim join Class 2.";
+
+		Class klass = new Class();
+		klass.setClassNum(2);
+
+		Teacher teacher = new Teacher();
+		teacher.setName("Woody");
+		teacher.setAge(30);
+		klass.setTeacher(teacher);
+
+		Student tom = new Student();
+		tom.setName("Tom");
+		tom.setClassNum(2);
+		tom.setAge(18);
+
+		Student jim = new Student();
+		jim.setName("Jim");
+
+		klass.appendStudentMember(tom);
+		klass.appendStudentMember(jim);
+
+		assertEquals(welcome, tom.getWelcomeClassmateMessage());
+	}
 }
