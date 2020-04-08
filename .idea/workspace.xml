@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e4344d-7c94-4cd5-bb73-6c9df0476a48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/oocl/ClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Class.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Teacher.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +49,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.oocl" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.oocl" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="groovy.util.GroovyTestCase" />
@@ -63,7 +69,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest.testPerson">
+  <component name="RunManager" selected="JUnit.ClassTest.testTeacher">
+    <configuration name="ClassTest.testTeacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.ClassTest" />
+      <option name="METHOD_NAME" value="testTeacher" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonTest.testPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
@@ -114,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClassTest.testTeacher" />
         <item itemvalue="JUnit.StudentTest.testPerson" />
         <item itemvalue="JUnit.TeacherTest.testTeacher" />
         <item itemvalue="JUnit.PersonTest.testPerson" />

@@ -1,7 +1,19 @@
 package com.oocl;
 
+import java.util.ArrayList;
+
 public class Student extends Person {
 	public int classNum;
+	public String welcomeClassmateMessage;
+	public String welcomeLeaderMessage;
+
+	public String getWelcomeClassmateMessage() {
+		return this.welcomeClassmateMessage;
+	}
+
+	public String getWelcomeLeaderMessages() {
+		return this.welcomeLeaderMessage;
+	}
 
 	public int getClassNum() {
 		return classNum;
@@ -16,11 +28,11 @@ public class Student extends Person {
 		return ("My name is "+ name +". I am "+ age +" years old. I am a student of class "+ classNum +". Coding for the glory of OOCL.");
 	}
 
-	public String welcomeClassmate(Class klass, Student student) {
-		return (introduce() + "Welcome " + student.getName() + " join Class " + klass.getClassNum() + ".");
+	public void welcomeClassmate(Class klass, Student student) {
+		this.welcomeClassmateMessage = (introduce() + "Welcome " + student.getName() + " join Class " + klass.getClassNum() + ".");
 	}
 
-	public String welcomeLeader(Class klass, Student leader) {
-		return (introduce() + leader.getName() + " is the leader of Class " + klass.getClassNum() + ".");
+	public void welcomeLeader(Class klass, Student leader) {
+		this.welcomeLeaderMessage = (introduce() + leader.getName() + " is the leader of Class " + klass.getClassNum() + ".");
 	}
 }

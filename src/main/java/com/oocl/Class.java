@@ -1,10 +1,12 @@
 package com.oocl;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Class {
 	public int classNum;
-	public List<Student> listOfStudent;
+	public List<Student> listOfStudent = new ArrayList<Student>();
 	public Student classLeader;
 	public Teacher teacher;
 
