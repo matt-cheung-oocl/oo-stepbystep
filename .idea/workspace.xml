@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClassTest.test_student_welcome_classmate">
+  <component name="RunManager" selected="JUnit.ClassTest.test_student_welcome_leader">
     <configuration name="ClassTest.testTeacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
@@ -98,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.testPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassTest.test_student_welcome_leader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +107,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.PersonTest" />
-      <option name="METHOD_NAME" value="testPerson" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.ClassTest" />
+      <option name="METHOD_NAME" value="test_student_welcome_leader" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassTest.test_teacher_welcome_leader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.ClassTest" />
+      <option name="METHOD_NAME" value="test_teacher_welcome_leader" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,29 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeacherTest.testTeacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oo-stepbystep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oocl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.TeacherTest" />
-      <option name="METHOD_NAME" value="testTeacher" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClassTest.test_student_welcome_leader" />
+        <item itemvalue="JUnit.ClassTest.test_teacher_welcome_leader" />
         <item itemvalue="JUnit.ClassTest.test_student_welcome_classmate" />
         <item itemvalue="JUnit.ClassTest.testTeacher" />
         <item itemvalue="JUnit.StudentTest.testPerson" />
-        <item itemvalue="JUnit.TeacherTest.testTeacher" />
-        <item itemvalue="JUnit.PersonTest.testPerson" />
       </list>
     </recent_temporary>
   </component>
