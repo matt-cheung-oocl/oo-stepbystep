@@ -4,9 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Teacher extends Person {
-	List<Integer> teachingClass = new ArrayList<Integer>();
-	public String welcomeClassmateMessage;
-	public String welcomeLeaderMessage;
+
+	private List<Integer> teachingClass = new ArrayList<Integer>();
+	private String welcomeClassmateMessage;
+	private String welcomeLeaderMessage;
+
+	public List<Integer> getTeachingClass() {
+		return teachingClass;
+	}
+
+	public void addTeachingClass(int classNum) {
+		this.teachingClass.add(classNum);
+	}
 
 	public String getWelcomeClassmateMessage() {
 		return this.welcomeClassmateMessage;
@@ -18,7 +27,7 @@ public class Teacher extends Person {
 
 	@Override
 	public String introduce() {
-		return ("My name is " + name + ". I am " + age + " years old. Teaching for the future of world. ");
+		return ("My name is " + this.getName() + ". I am " + this.getAge() + " years old. Teaching for the future of world. ");
 	}
 
 	public void welcomeStudent(Class klass, Student student) {

@@ -4,18 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Class {
-	public int classNum;
-	public List<Student> listOfStudent = new ArrayList<Student>();
-	public Student classLeader;
-	public Teacher teacher;
+	private int classNum;
+	private List<Student> listOfStudent = new ArrayList<Student>();
+	private Student classLeader;
+	private Teacher teacher;
 
 	public Teacher getTeacher() {
 		return teacher;
 	}
 
 	public void setTeacher(Teacher teacher) {
-		if (teacher.teachingClass.size() < 5) {
-			teacher.teachingClass.add(this.classNum);
+		if (teacher.getTeachingClass().size() < 5) {
+			teacher.addTeachingClass(this.classNum);
 			this.teacher = teacher;
 		}
 		else

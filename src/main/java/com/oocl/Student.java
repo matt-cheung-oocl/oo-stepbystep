@@ -1,9 +1,9 @@
 package com.oocl;
 
 public class Student extends Person {
-	public int classNum;
-	public String welcomeClassmateMessage;
-	public String welcomeLeaderMessage;
+	private int classNum;
+	private String welcomeClassmateMessage;
+	private String welcomeLeaderMessage;
 
 	public String getWelcomeClassmateMessage() {
 		return this.welcomeClassmateMessage;
@@ -23,7 +23,7 @@ public class Student extends Person {
 
 	@Override
 	public String introduce() {
-		return ("My name is "+ name +". I am "+ age +" years old. I am a student of class "+ classNum +". Coding for the glory of OOCL. ");
+		return ("My name is "+ this.getName() +". I am "+ this.getAge() +" years old. I am a student of class "+ this.getClassNum() +". Coding for the glory of OOCL. ");
 	}
 
 	public void welcomeClassmate(Class klass, Student student) {
